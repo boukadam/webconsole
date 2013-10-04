@@ -15,6 +15,7 @@ import javax.annotation.PostConstruct;
 
 import org.osgi.framework.BundleContext;
 
+import com.peergreen.example.webconsole.extensions.utils.GitHubClassURL;
 import com.peergreen.webconsole.Extension;
 import com.peergreen.webconsole.ExtensionPoint;
 import com.peergreen.webconsole.Inject;
@@ -44,7 +45,7 @@ public class SimpleExtension extends VerticalLayout {
         setSpacing(true);
         setMargin(true);
 
-        Link showCodeSource = new Link("Show code source", new ExternalResource("http://github.com"));
+        Link showCodeSource = new Link("Show code source", new ExternalResource(GitHubClassURL.getURL(SimpleExtension.class)));
         showCodeSource.setTargetName("_blank");
         addComponent(showCodeSource);
         setComponentAlignment(showCodeSource, Alignment.TOP_RIGHT);

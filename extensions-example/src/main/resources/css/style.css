@@ -1,0 +1,10 @@
+.dashed-area {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 10px;
+    border: 4px dashed #a4a4a2;
+    min-height : 400px;
+}

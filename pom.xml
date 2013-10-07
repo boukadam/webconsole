@@ -95,9 +95,9 @@
   <repositories>
     <!-- Peergreen repository -->
     <repository>
-      <id>peergreen</id>
+      <id>peergreen.community</id>
       <name>Peergreen Maven2 Repository</name>
-      <url>https://forge.peergreen.com/repository/content/groups/public/</url>
+      <url>https://forge.peergreen.com/repository/content/repositories/releases/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -106,5 +106,13 @@
       </snapshots>
     </repository>
   </repositories>
+
+  <distributionManagement>
+    <repository>
+      <id>peergreen.community</id>
+      <name>Peergreen Maven2 Repository</name>
+      <url>https://forge.peergreen.com/repository/content/repositories/releases/</url>
+    </repository>
+  </distributionManagement>
     
 </project>

@@ -30,6 +30,13 @@
     <module>extensions-example</module>
   </modules>
 
+  <scm>
+    <connection>scm:git:https://github.com/peergreen/webconsole.git</connection>
+    <developerConnection>scm:git:https://github.com/peergreen/webconsole.git</developerConnection>
+    <url>https://github.com/peergreen/webconsole</url>
+    <tag>HEAD</tag>
+  </scm>
+
   <dependencies>
     <dependency>
       <groupId>com.peergreen.community.webconsole</groupId>

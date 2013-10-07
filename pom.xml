@@ -16,7 +16,7 @@
   <groupId>com.peergreen.example.webconsole</groupId>
   <artifactId>webconsole-parent</artifactId>
   <name>Peergreen Web Console Examples</name>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
